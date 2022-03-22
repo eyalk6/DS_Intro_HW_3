@@ -2,7 +2,7 @@ def read_line(num, file):
     try:
         file = open(file)
         count = 0
-        if type(num)!=int:
+        if type(num)!= int:
             return "invalid input detected"
         for line in file:
             count = count + 1
